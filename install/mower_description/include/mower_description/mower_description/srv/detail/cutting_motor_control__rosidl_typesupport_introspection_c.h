@@ -1,0 +1,1 @@
+/home/q/Algorithm_research/DWA_ws/build/mower_description/rosidl_typesupport_introspection_c/mower_description/srv/detail/cutting_motor_control__rosidl_typesupport_introspection_c.h

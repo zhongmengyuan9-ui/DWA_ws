@@ -1,0 +1,4 @@
+source;share/mower_description/environment/ament_prefix_path.sh
+source;share/mower_description/environment/library_path.sh
+source;share/mower_description/environment/path.sh
+source;share/mower_description/environment/pythonpath.sh

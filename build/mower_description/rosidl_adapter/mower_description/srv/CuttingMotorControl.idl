@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mower_description/srv/CuttingMotorControl.srv
+// generated code does not contain a copyright notice
+
+
+module mower_description {
+  module srv {
+    struct CuttingMotorControl_Request {
+      @verbatim (language="comment", text=
+        "0=关闭, 1=一档, 2=二档, 3=三档")
+      int32 speed_level;
+    };
+    struct CuttingMotorControl_Response {
+      @verbatim (language="comment", text=
+        "操作是否成功")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "操作结果消息")
+      string message;
+
+      @verbatim (language="comment", text=
+        "实际设置的速度 (rad/s)")
+      double actual_speed;
+    };
+  };
+};

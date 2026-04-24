@@ -1,0 +1,1 @@
+/home/q/Algorithm_research/DWA_ws/build/mower_description/ament_cmake_python/mower_description/mower_description.egg-info/SOURCES.txt

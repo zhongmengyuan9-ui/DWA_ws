@@ -1,0 +1,6 @@
+source;share/mower_dwa_local_planner/hook/pythonpath.ps1
+source;share/mower_dwa_local_planner/hook/pythonpath.dsv
+source;share/mower_dwa_local_planner/hook/pythonpath.sh
+source;share/mower_dwa_local_planner/hook/ament_prefix_path.ps1
+source;share/mower_dwa_local_planner/hook/ament_prefix_path.dsv
+source;share/mower_dwa_local_planner/hook/ament_prefix_path.sh

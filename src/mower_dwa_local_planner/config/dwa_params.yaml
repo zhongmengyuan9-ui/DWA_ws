@@ -1,0 +1,33 @@
+dwa_local_planner:
+  ros__parameters:
+    use_sim_time: true
+    scan_topic: /scan
+    odom_topic: /odom
+    cmd_vel_topic: /cmd_vel
+    goal_topic: /goal_pose
+    path_topic: /dwa/best_path
+    goal_frame: odom
+    use_static_goal: false
+    static_goal_x: 4.0
+    static_goal_y: 0.0
+    goal_tolerance: 0.35
+    control_rate: 10.0
+    predict_time: 2.5
+    sim_dt: 0.1
+    v_samples: 8
+    w_samples: 17
+    min_speed: 0.0
+    max_speed: 0.7
+    max_yaw_rate: 1.4
+    max_accel: 0.8
+    max_yaw_accel: 2.5
+    robot_radius: 0.38
+    safety_margin: 0.12
+    clearance_cap: 2.5
+    obstacle_range: 6.0
+    heading_weight: 0.52
+    clearance_weight: 0.30
+    velocity_weight: 0.18
+    escape_yaw_rate: 0.7
+    front_sector_half_angle: 0.55
+    front_sector_range: 1.5

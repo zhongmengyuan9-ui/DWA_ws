@@ -1,0 +1,1 @@
+/home/q/Algorithm_research/DWA_ws/build/mower_description/rosidl_generator_rs/mower_description/rust/src/lib.rs

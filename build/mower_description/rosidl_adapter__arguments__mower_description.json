@@ -1,0 +1,6 @@
+{
+  "package_name": "mower_description",
+  "non_idl_tuples": [
+    "/home/q/Algorithm_research/DWA_ws/src/mower_description:srv/CuttingMotorControl.srv"
+  ]
+}

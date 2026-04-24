@@ -1,0 +1,11 @@
+source;share/mower_description/hook/cmake_prefix_path.ps1
+source;share/mower_description/hook/cmake_prefix_path.dsv
+source;share/mower_description/hook/cmake_prefix_path.sh
+source;share/mower_description/hook/ld_library_path_lib.ps1
+source;share/mower_description/hook/ld_library_path_lib.dsv
+source;share/mower_description/hook/ld_library_path_lib.sh
+source;share/mower_description/local_setup.bash
+source;share/mower_description/local_setup.dsv
+source;share/mower_description/local_setup.ps1
+source;share/mower_description/local_setup.sh
+source;share/mower_description/local_setup.zsh

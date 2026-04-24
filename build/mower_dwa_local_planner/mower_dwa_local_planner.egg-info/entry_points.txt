@@ -1,0 +1,3 @@
+[console_scripts]
+dwa_local_planner = mower_dwa_local_planner.dwa_local_planner:main
+

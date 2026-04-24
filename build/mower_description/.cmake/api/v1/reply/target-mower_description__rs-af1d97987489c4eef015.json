@@ -1,0 +1,73 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/q/Algorithm_research/DWA_ws/build/mower_description/mower_description__rs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "mower_description__rs::@0e9f4c93b569b8890210",
+	"name" : "mower_description__rs",
+	"paths" : 
+	{
+		"build" : "mower_description__rs",
+		"source" : "/home/q/Algorithm_research/DWA_ws/build/mower_description/mower_description__rs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/q/Algorithm_research/DWA_ws/build/mower_description/mower_description__rs/CMakeFiles/mower_description__rs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/q/Algorithm_research/DWA_ws/build/mower_description/mower_description__rs/CMakeFiles/mower_description__rs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/q/Algorithm_research/DWA_ws/build/mower_description/rosidl_generator_rs/mower_description/rust/src/lib.rs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
