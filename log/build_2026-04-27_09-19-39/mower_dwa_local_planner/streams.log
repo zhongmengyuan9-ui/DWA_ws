@@ -1,0 +1,24 @@
+[0.864s] Invoking command in '/home/q/Algorithm_research/DWA_ws/src/mower_dwa_local_planner': AMENT_PREFIX_PATH=/home/q/Algorithm_research/DWA_ws/install/mower_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/q/Algorithm_research/DWA_ws/install/mower_description LD_LIBRARY_PATH=/home/q/Algorithm_research/DWA_ws/install/mower_description/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/q/Algorithm_research/DWA_ws/build/mower_dwa_local_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/q/Algorithm_research/DWA_ws/install/mower_dwa_local_planner/lib/python3.10/site-packages:/home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mower_dwa_local_planner build --build-base /home/q/Algorithm_research/DWA_ws/build/mower_dwa_local_planner/build install --record /home/q/Algorithm_research/DWA_ws/build/mower_dwa_local_planner/install.log --single-version-externally-managed install_data
+[1.093s] running egg_info
+[1.093s] writing ../../build/mower_dwa_local_planner/mower_dwa_local_planner.egg-info/PKG-INFO
+[1.093s] writing dependency_links to ../../build/mower_dwa_local_planner/mower_dwa_local_planner.egg-info/dependency_links.txt
+[1.094s] writing entry points to ../../build/mower_dwa_local_planner/mower_dwa_local_planner.egg-info/entry_points.txt
+[1.094s] writing requirements to ../../build/mower_dwa_local_planner/mower_dwa_local_planner.egg-info/requires.txt
+[1.094s] writing top-level names to ../../build/mower_dwa_local_planner/mower_dwa_local_planner.egg-info/top_level.txt
+[1.095s] reading manifest file '../../build/mower_dwa_local_planner/mower_dwa_local_planner.egg-info/SOURCES.txt'
+[1.096s] writing manifest file '../../build/mower_dwa_local_planner/mower_dwa_local_planner.egg-info/SOURCES.txt'
+[1.096s] running build
+[1.096s] running build_py
+[1.096s] copying mower_dwa_local_planner/dwa_local_planner.py -> /home/q/Algorithm_research/DWA_ws/build/mower_dwa_local_planner/build/lib/mower_dwa_local_planner
+[1.096s] running install
+[1.096s] running install_lib
+[1.097s] copying /home/q/Algorithm_research/DWA_ws/build/mower_dwa_local_planner/build/lib/mower_dwa_local_planner/dwa_local_planner.py -> /home/q/Algorithm_research/DWA_ws/install/mower_dwa_local_planner/lib/python3.10/site-packages/mower_dwa_local_planner
+[1.101s] byte-compiling /home/q/Algorithm_research/DWA_ws/install/mower_dwa_local_planner/lib/python3.10/site-packages/mower_dwa_local_planner/dwa_local_planner.py to dwa_local_planner.cpython-310.pyc
+[1.109s] running install_data
+[1.109s] running install_egg_info
+[1.111s] removing '/home/q/Algorithm_research/DWA_ws/install/mower_dwa_local_planner/lib/python3.10/site-packages/mower_dwa_local_planner-0.0.1-py3.10.egg-info' (and everything under it)
+[1.111s] Copying ../../build/mower_dwa_local_planner/mower_dwa_local_planner.egg-info to /home/q/Algorithm_research/DWA_ws/install/mower_dwa_local_planner/lib/python3.10/site-packages/mower_dwa_local_planner-0.0.1-py3.10.egg-info
+[1.112s] running install_scripts
+[1.127s] Installing dwa_local_planner script to /home/q/Algorithm_research/DWA_ws/install/mower_dwa_local_planner/lib/mower_dwa_local_planner
+[1.127s] writing list of installed files to '/home/q/Algorithm_research/DWA_ws/build/mower_dwa_local_planner/install.log'
+[1.142s] Invoked command in '/home/q/Algorithm_research/DWA_ws/src/mower_dwa_local_planner' returned '0': AMENT_PREFIX_PATH=/home/q/Algorithm_research/DWA_ws/install/mower_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/q/Algorithm_research/DWA_ws/install/mower_description LD_LIBRARY_PATH=/home/q/Algorithm_research/DWA_ws/install/mower_description/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/q/Algorithm_research/DWA_ws/build/mower_dwa_local_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/q/Algorithm_research/DWA_ws/install/mower_dwa_local_planner/lib/python3.10/site-packages:/home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mower_dwa_local_planner build --build-base /home/q/Algorithm_research/DWA_ws/build/mower_dwa_local_planner/build install --record /home/q/Algorithm_research/DWA_ws/build/mower_dwa_local_planner/install.log --single-version-externally-managed install_data
