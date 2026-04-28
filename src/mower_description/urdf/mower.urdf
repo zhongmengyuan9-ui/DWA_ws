@@ -36,7 +36,7 @@
       <geometry>
         <box size="0.5665 0.37 0.12"/>
       </geometry>
-      <origin rpy="0 0 0" xyz="0 0 0.06"/>
+      <origin rpy="0 0 0" xyz="0.12 0 0.06"/>
       <material name="graphite">
         <color rgba="0.16 0.18 0.20 1.0"/>
       </material>
@@ -45,7 +45,7 @@
       <geometry>
         <box size="0.48 0.29 0.03"/>
       </geometry>
-      <origin rpy="0 0 0" xyz="0 0 0.135"/>
+      <origin rpy="0 0 0" xyz="0.12 0 0.135"/>
       <material name="snow_white">
         <color rgba="0.92 0.93 0.95 1.0"/>
       </material>
@@ -54,7 +54,7 @@
       <geometry>
         <box size="0.54 0.015 0.025"/>
       </geometry>
-      <origin rpy="0 0 0" xyz="0 0.142 0.092"/>
+      <origin rpy="0 0 0" xyz="0.12 0.142 0.092"/>
       <material name="accent_orange">
         <color rgba="0.95 0.44 0.08 1.0"/>
       </material>
@@ -63,7 +63,7 @@
       <geometry>
         <box size="0.48 0.015 0.025"/>
       </geometry>
-      <origin rpy="0 0 0" xyz="0 -0.142 0.092"/>
+      <origin rpy="0 0 0" xyz="0.12 -0.142 0.092"/>
       <material name="accent_orange">
         <color rgba="0.95 0.44 0.08 1.0"/>
       </material>
@@ -72,7 +72,7 @@
       <geometry>
         <box size="0.5665 0.37 0.15"/>
       </geometry>
-      <origin rpy="0 0 0" xyz="0 0 0.075"/>
+      <origin rpy="0 0 0" xyz="0.12 0 0.075"/>
     </collision>
     <inertial>
       <mass value="10.0"/>
@@ -446,7 +446,7 @@
     <!-- REP-103: +Y is left. Place left wheel on +Y. -->
     <!-- Keep chassis clearance above ground:
          base_link is the chassis bottom plane, so wheel_center_z = wheel_radius - clearance -->
-    <origin rpy="0 0 0" xyz="-0.12 0.16 0.03"/>
+    <origin rpy="0 0 0" xyz="0 0.16 0.03"/>
     <axis xyz="0 1 0"/>
     <limit effort="100" velocity="10"/>
     <dynamics damping="1.0" friction="1.0"/>
@@ -458,7 +458,7 @@
     <child link="right_wheel"/>
     <!-- REP-103: +Y is left. Place right wheel on -Y. -->
     <!-- Keep chassis clearance above ground -->
-    <origin rpy="0 0 0" xyz="-0.12 -0.16 0.03"/>
+    <origin rpy="0 0 0" xyz="0 -0.16 0.03"/>
     <axis xyz="0 1 0"/>
     <limit effort="100" velocity="10"/>
     <dynamics damping="1.0" friction="1.0"/>
@@ -471,7 +471,7 @@
     <!-- Push outward so it doesn't intersect the chassis, and set z to caster radius. -->
     <!-- REP-103: +Y is left. Place front-left caster on +Y. -->
     <!-- caster_center_z = caster_radius - clearance -->
-    <origin rpy="0 0 0" xyz="0.180 0.0925 -0.035"/>
+    <origin rpy="0 0 0" xyz="0.30 0.0925 -0.035"/>
     <axis xyz="0 1 0"/>
     <limit effort="20" velocity="20"/>
     <dynamics damping="0.2" friction="0.2"/>
@@ -482,7 +482,7 @@
     <parent link="base_link"/>
     <child link="front_right_caster"/>
     <!-- REP-103: +Y is left. Place front-right caster on -Y. -->
-    <origin rpy="0 0 0" xyz="0.180 -0.0925 -0.035"/>
+    <origin rpy="0 0 0" xyz="0.30 -0.0925 -0.035"/>
     <axis xyz="0 1 0"/>
     <limit effort="20" velocity="20"/>
     <dynamics damping="0.2" friction="0.2"/>
@@ -493,7 +493,7 @@
     <parent link="base_link"/>
     <child link="lidar_mast_link"/>
     <!-- base_link 的底盘顶面约在 z=0.15，支架长度 0.04 -->
-    <origin rpy="0 0 0" xyz="0.0 0.0 0.17"/>
+    <origin rpy="0 0 0" xyz="0.12 0.0 0.17"/>
   </joint>
 
   <!-- 关节：激光雷达 -->
@@ -509,7 +509,7 @@
     <parent link="base_link"/>
     <child link="camera_link"/>
     <!-- 放在车体上表面前方 -->
-    <origin rpy="0 0 0" xyz="0.22 0 0.165"/>
+    <origin rpy="0 0 0" xyz="0.34 0 0.165"/>
   </joint>
 
   <!-- camera_link -> camera_optical_frame 的固定变换 -->
@@ -524,21 +524,21 @@
   <joint name="ultrasonic_joint" type="fixed">
     <parent link="base_link"/>
     <child link="ultrasonic_link"/>
-    <origin rpy="0 0 0" xyz="0.27 0 0.08"/>
+    <origin rpy="0 0 0" xyz="0.39 0 0.08"/>
   </joint>
 
   <!-- 关节：IMU（车体内部） -->
   <joint name="imu_joint" type="fixed">
     <parent link="base_link"/>
     <child link="imu_link"/>
-    <origin rpy="0 0 0" xyz="0 0 0.075"/>
+    <origin rpy="0 0 0" xyz="0.12 0 0.075"/>
   </joint>
 
   <!-- 关节：碰撞传感器 -->
   <joint name="bumper_joint" type="fixed">
     <parent link="base_link"/>
     <child link="bumper_link"/>
-    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <origin rpy="0 0 0" xyz="0.12 0 0"/>
   </joint>
 
   <!-- 关节：刀片1（固定到电机） -->
@@ -566,7 +566,7 @@
   <joint name="blade_joint" type="continuous">
     <parent link="base_link"/>
     <child link="cutting_motor_link"/>
-    <origin rpy="0 0 0" xyz="0 0 -0.01"/>
+    <origin rpy="0 0 0" xyz="0.12 0 -0.01"/>
     <axis xyz="0 0 1"/>
     <limit effort="50" velocity="80"/>
     <dynamics damping="0.5" friction="0.1"/>
@@ -588,7 +588,7 @@
       <update_rate>30</update_rate>
       <left_joint>left_wheel_joint</left_joint>
       <right_joint>right_wheel_joint</right_joint>
-      <wheel_separation>0.4</wheel_separation>
+      <wheel_separation>0.32</wheel_separation>
       <wheel_diameter>0.2</wheel_diameter>
       <max_wheel_torque>10</max_wheel_torque>
       <max_wheel_acceleration>1.0</max_wheel_acceleration>
