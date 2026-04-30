@@ -6,16 +6,16 @@ ros2 launch mower_description mower_gazebo.launch.py 2>&1 | grep -v "blade_traje
 
 
 # 启动一档
-ros2 service call /mower/cutting_motor/control mower_description/srv/CuttingMotorControl "{speed_level: 1}"
+ros2 service call /gmower/cutting_motor/control mower_description/srv/CuttingMotorControl "{speed_level: 1}"
 
 # 启动二档
-ros2 service call /mower/cutting_motor/control mower_description/srv/CuttingMotorControl "{speed_level: 2}"
+ros2 service call /gmower/cutting_motor/control mower_description/srv/CuttingMotorControl "{speed_level: 2}"
 
 # 启动三档
-ros2 service call /mower/cutting_motor/control mower_description/srv/CuttingMotorControl "{speed_level: 3}"
+ros2 service call /gmower/cutting_motor/control mower_description/srv/CuttingMotorControl "{speed_level: 3}"
 
 # 关闭电机
-ros2 service call /mower/cutting_motor/control mower_description/srv/CuttingMotorControl "{speed_level: 0}"
+ros2 service call /gmower/cutting_motor/control mower_description/srv/CuttingMotorControl "{speed_level: 0}"
 
 
 二、DWA局部避障验证
