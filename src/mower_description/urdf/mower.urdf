@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot name="mower" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="gmower" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
   <!-- 颜色定义 -->
   <material name="graphite">
@@ -449,7 +449,7 @@
     <origin rpy="0 0 0" xyz="0 0.16 0.03"/>
     <axis xyz="0 1 0"/>
     <limit effort="100" velocity="10"/>
-    <dynamics damping="1.0" friction="1.0"/>
+    <dynamics damping="0.05" friction="0.05"/>
   </joint>
 
   <!-- 关节：右驱动轮 -->
@@ -461,7 +461,7 @@
     <origin rpy="0 0 0" xyz="0 -0.16 0.03"/>
     <axis xyz="0 1 0"/>
     <limit effort="100" velocity="10"/>
-    <dynamics damping="1.0" friction="1.0"/>
+    <dynamics damping="0.05" friction="0.05"/>
   </joint>
 
   <!-- 关节：左前支撑轮（可滚动） -->
@@ -474,7 +474,7 @@
     <origin rpy="0 0 0" xyz="0.30 0.0925 -0.035"/>
     <axis xyz="0 1 0"/>
     <limit effort="20" velocity="20"/>
-    <dynamics damping="0.2" friction="0.2"/>
+    <dynamics damping="0.0" friction="0.0"/>
   </joint>
 
   <!-- 关节：右前支撑轮（可滚动） -->
@@ -485,7 +485,7 @@
     <origin rpy="0 0 0" xyz="0.30 -0.0925 -0.035"/>
     <axis xyz="0 1 0"/>
     <limit effort="20" velocity="20"/>
-    <dynamics damping="0.2" friction="0.2"/>
+    <dynamics damping="0.0" friction="0.0"/>
   </joint>
 
   <!-- 关节：雷达支架（位于车体中心、上表面） -->
@@ -577,7 +577,7 @@
     <!-- 差速驱动插件（ROS2 版本） -->
     <plugin name="gazebo_ros_diff_drive" filename="libgazebo_ros_diff_drive.so">
       <ros>
-        <namespace>/mower</namespace>
+        <namespace>/gmower</namespace>
         <remapping>cmd_vel:=/cmd_vel</remapping>
         <remapping>odom:=/odom</remapping>
         <!-- TF topics are just normal topics in ROS2; with a namespace they'd become /mower/tf.
@@ -589,7 +589,7 @@
       <left_joint>left_wheel_joint</left_joint>
       <right_joint>right_wheel_joint</right_joint>
       <wheel_separation>0.32</wheel_separation>
-      <wheel_diameter>0.2</wheel_diameter>
+      <wheel_diameter>0.22</wheel_diameter>
       <max_wheel_torque>10</max_wheel_torque>
       <max_wheel_acceleration>1.0</max_wheel_acceleration>
       <!-- Use absolute topics to avoid namespace/remap ambiguity -->
@@ -623,7 +623,7 @@
   <gazebo>
     <plugin name="blade_trajectory_controller" filename="libgazebo_ros_joint_pose_trajectory.so">
       <ros>
-        <namespace>/mower/blade</namespace>
+        <namespace>/gmower/blade</namespace>
       </ros>
       <update_rate>100.0</update_rate>
       <joint_name>blade_joint</joint_name>
@@ -691,7 +691,7 @@
       <!-- 注意：该插件输出 LaserScan；如果你需要 sensor_msgs/Range，可在 ROS 里做一次转换节点 -->
       <plugin name="gazebo_ros_ultrasonic" filename="libgazebo_ros_ray_sensor.so">
         <ros>
-          <namespace>/mower</namespace>
+          <namespace>/gmower</namespace>
           <remapping>~/out:=ultrasonic/scan</remapping>
         </ros>
         <output_type>sensor_msgs/LaserScan</output_type>
@@ -719,7 +719,7 @@
       </camera>
       <plugin name="gazebo_ros_camera" filename="libgazebo_ros_camera.so">
         <ros>
-          <namespace>/mower</namespace>
+          <namespace>/gmower</namespace>
         </ros>
         <camera_name>camera</camera_name>
         <!-- Use optical frame so point cloud axes match RViz expectation -->
@@ -743,7 +743,7 @@
       </imu>
       <plugin name="gazebo_ros_imu" filename="libgazebo_ros_imu_sensor.so">
         <ros>
-          <namespace>/mower</namespace>
+          <namespace>/gmower</namespace>
           <remapping>~/out:=imu/data</remapping>
         </ros>
       </plugin>
@@ -760,7 +760,7 @@
       </contact>
       <plugin name="gazebo_ros_contact_sensor" filename="libgazebo_ros_contact_sensor.so">
         <ros>
-          <namespace>/mower</namespace>
+          <namespace>/gmower</namespace>
         </ros>
         <contact_topic>bumper_contact</contact_topic>
       </plugin>
@@ -814,7 +814,7 @@
     <mu1>1.0</mu1>
     <mu2>1.0</mu2>
     <kp>1000000.0</kp>
-    <kd>100.0</kd>
+    <kd>10.0</kd>
   </gazebo>
   <gazebo reference="right_wheel">
     <material>Gazebo/Black</material>
@@ -824,7 +824,7 @@
     <mu1>1.0</mu1>
     <mu2>1.0</mu2>
     <kp>1000000.0</kp>
-    <kd>100.0</kd>
+    <kd>10.0</kd>
   </gazebo>
   <gazebo reference="front_left_caster">
     <!-- Low friction so the front support wheels don't resist turning -->
@@ -832,8 +832,8 @@
     <ambient>0.04 0.04 0.04 1</ambient>
     <diffuse>0.04 0.04 0.04 1</diffuse>
     <specular>0.02 0.02 0.02 1</specular>
-    <mu1>0.05</mu1>
-    <mu2>0.05</mu2>
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
   </gazebo>
   <gazebo reference="front_right_caster">
     <!-- Low friction so the front support wheels don't resist turning -->
@@ -841,8 +841,8 @@
     <ambient>0.04 0.04 0.04 1</ambient>
     <diffuse>0.04 0.04 0.04 1</diffuse>
     <specular>0.02 0.02 0.02 1</specular>
-    <mu1>0.05</mu1>
-    <mu2>0.05</mu2>
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
   </gazebo>
 
 </robot>

@@ -9,7 +9,7 @@
 /home/q/Algorithm_research/DWA_ws/build/mower_description/CMakeFiles/mower_description__rosidl_typesupport_c.dir
 /home/q/Algorithm_research/DWA_ws/build/mower_description/CMakeFiles/mower_description__rosidl_typesupport_introspection_cpp.dir
 /home/q/Algorithm_research/DWA_ws/build/mower_description/CMakeFiles/mower_description__rosidl_typesupport_cpp.dir
-/home/q/Algorithm_research/DWA_ws/build/mower_description/CMakeFiles/ament_cmake_python_symlink_mower_description.dir
+/home/q/Algorithm_research/DWA_ws/build/mower_description/CMakeFiles/ament_cmake_python_copy_mower_description.dir
 /home/q/Algorithm_research/DWA_ws/build/mower_description/CMakeFiles/ament_cmake_python_build_mower_description_egg.dir
 /home/q/Algorithm_research/DWA_ws/build/mower_description/CMakeFiles/mower_description__rosidl_generator_py.dir
 /home/q/Algorithm_research/DWA_ws/build/mower_description/CMakeFiles/mower_description__rosidl_typesupport_fastrtps_c__pyext.dir

@@ -1,1 +1,4 @@
-/home/q/Algorithm_research/DWA_ws/build/mower_description/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/mower_description
+srv/CuttingMotorControl.idl
+srv/CuttingMotorControl.srv
+srv/CuttingMotorControl_Request.msg
+srv/CuttingMotorControl_Response.msg

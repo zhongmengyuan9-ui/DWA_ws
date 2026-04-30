@@ -1,1 +1,6 @@
-/home/q/Algorithm_research/DWA_ws/build/mower_description/ament_cmake_python/mower_description/mower_description.egg-info/SOURCES.txt
+setup.py
+mower_description/__init__.py
+mower_description.egg-info/PKG-INFO
+mower_description.egg-info/SOURCES.txt
+mower_description.egg-info/dependency_links.txt
+mower_description.egg-info/top_level.txt

@@ -1,1 +1,1 @@
-/home/q/Algorithm_research/DWA_ws/build/mower_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mower_description
+urdf;xacro;gazebo_ros;gazebo_msgs;std_msgs;trajectory_msgs;launch;launch_ros;robot_state_publisher;joint_state_publisher;rviz2;rclpy;visualization_msgs;rosidl_default_runtime;ament_lint_auto;ament_lint_common

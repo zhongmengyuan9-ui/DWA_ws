@@ -1,1 +1,1 @@
-/home/q/Algorithm_research/DWA_ws/build/mower_description/rosidl_cmake/srv/CuttingMotorControl_Request.msg
+int32 speed_level  # 0=关闭, 1=一档, 2=二档, 3=三档

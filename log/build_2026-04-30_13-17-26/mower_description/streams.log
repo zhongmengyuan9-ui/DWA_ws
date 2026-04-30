@@ -1,0 +1,349 @@
+[0.009s] Invoking command in '/home/q/Algorithm_research/DWA_ws/build/mower_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/q/Algorithm_research/DWA_ws/src/mower_description -DCMAKE_INSTALL_PREFIX=/home/q/Algorithm_research/DWA_ws/install/mower_description
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.222s] -- The CXX compiler identification is GNU 11.4.0
+[0.230s] -- Detecting C compiler ABI info
+[0.353s] -- Detecting C compiler ABI info - done
+[0.364s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.364s] -- Detecting C compile features
+[0.364s] -- Detecting C compile features - done
+[0.368s] -- Detecting CXX compiler ABI info
+[0.504s] -- Detecting CXX compiler ABI info - done
+[0.515s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.516s] -- Detecting CXX compile features
+[0.516s] -- Detecting CXX compile features - done
+[0.519s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.648s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.725s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.771s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.773s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.805s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.809s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.820s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.833s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.882s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.885s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.907s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.966s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.968s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.980s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.983s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.992s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.002s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.011s] -- Looking for pthread.h
+[1.157s] -- Looking for pthread.h - found
+[1.157s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.294s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.295s] -- Found Threads: TRUE  
+[1.349s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.350s] -- Checking for module 'bullet>=2.82'
+[1.364s] --   Found bullet, version 3.05
+[1.465s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.522s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.536s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.567s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.579s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.584s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.589s] -- Searching for dependencies of ignition-math6
+[1.591s] -- Looking for OGRE...
+[1.591s] -- OGRE_PREFIX_WATCH changed.
+[1.597s] -- Checking for module 'OGRE'
+[1.610s] --   Found OGRE, version 1.9.0
+[1.644s] -- Found Ogre Ghadamon (1.9.0)
+[1.650s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.658s] -- Looking for OGRE_Paging...
+[1.662s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.662s] -- Looking for OGRE_Terrain...
+[1.665s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.665s] -- Looking for OGRE_Property...
+[1.668s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.668s] -- Looking for OGRE_RTShaderSystem...
+[1.672s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.672s] -- Looking for OGRE_Volume...
+[1.675s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.675s] -- Looking for OGRE_Overlay...
+[1.678s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.746s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.748s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.749s] -- Searching for dependencies of ignition-transport8
+[1.763s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.771s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.776s] -- Checking for module 'libzmq >= 4'
+[1.796s] --   Found libzmq , version 4.3.4
+[1.865s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.876s] -- Checking for module 'uuid'
+[1.899s] --   Found uuid, version 2.37.2
+[1.954s] -- Found UUID: TRUE  
+[1.958s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.958s] -- Searching for dependencies of ignition-msgs5
+[1.975s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.979s] -- Checking for module 'tinyxml2'
+[1.999s] --   Found tinyxml2, version 9.0.0
+[2.048s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.051s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.052s] -- Searching for dependencies of ignition-common3
+[2.052s] -- Looking for dlfcn.h - found
+[2.053s] -- Looking for libdl - found
+[2.055s] -- Found DL: TRUE  
+[2.065s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.065s] -- Searching for <ignition-common3> component [graphics]
+[2.067s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.067s] -- Searching for dependencies of ignition-common3-graphics
+[2.068s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.070s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.070s] -- Searching for dependencies of ignition-fuel_tools4
+[2.165s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.178s] -- Checking for module 'jsoncpp'
+[2.200s] --   Found jsoncpp, version 1.9.5
+[2.264s] -- Found JSONCPP: TRUE  
+[2.273s] -- Checking for module 'libzip'
+[2.295s] --   Found libzip, version 1.7.3
+[2.348s] -- Found ZIP: TRUE  
+[2.348s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.349s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.349s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.352s] -- Gazebo version: 11.10
+[2.352s] -- Checking for module 'tbb'
+[2.377s] --   Found tbb, version 2021.5.0
+[2.440s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.753s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.452s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.453s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.477s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.477s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.477s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.477s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.500s] -- Found PythonExtra: .so  
+[3.708s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.739s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.740s] -- Added test 'lint_cmake' to check CMake code style
+[3.740s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.742s] -- Added test 'xmllint' to check XML markup files
+[3.746s] -- Configuring done
+[3.805s] -- Generating done
+[3.829s] -- Build files have been written to: /home/q/Algorithm_research/DWA_ws/build/mower_description
+[3.840s] Invoked command in '/home/q/Algorithm_research/DWA_ws/build/mower_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/q/Algorithm_research/DWA_ws/src/mower_description -DCMAKE_INSTALL_PREFIX=/home/q/Algorithm_research/DWA_ws/install/mower_description
+[3.842s] Invoking command in '/home/q/Algorithm_research/DWA_ws/build/mower_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/q/Algorithm_research/DWA_ws/build/mower_description -- -j24 -l24
+[3.898s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.909s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[3.909s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.922s] [  9%] Built target ament_cmake_python_copy_mower_description
+[4.134s] [  9%] Built target mower_description__rs
+[4.143s] [  9%] Built target mower_description__cpp
+[4.153s] [ 12%] [32mBuilding C object CMakeFiles/mower_description__rosidl_generator_c.dir/rosidl_generator_c/mower_description/srv/detail/cutting_motor_control__functions.c.o[0m
+[4.155s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.155s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.156s] [ 21%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.167s] running egg_info
+[4.168s] creating mower_description.egg-info
+[4.168s] writing mower_description.egg-info/PKG-INFO
+[4.168s] writing dependency_links to mower_description.egg-info/dependency_links.txt
+[4.168s] writing top-level names to mower_description.egg-info/top_level.txt
+[4.169s] writing manifest file 'mower_description.egg-info/SOURCES.txt'
+[4.171s] reading manifest file 'mower_description.egg-info/SOURCES.txt'
+[4.171s] writing manifest file 'mower_description.egg-info/SOURCES.txt'
+[4.195s] [ 21%] Built target ament_cmake_python_build_mower_description_egg
+[4.270s] [ 25%] [32m[1mLinking C shared library libmower_description__rosidl_generator_c.so[0m
+[4.314s] [ 25%] Built target mower_description__rosidl_generator_c
+[4.326s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.328s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.328s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.346s] [ 37%] [32mBuilding CXX object CMakeFiles/mower_description__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mower_description/srv/cutting_motor_control__type_support.cpp.o[0m
+[4.361s] [ 40%] [32mBuilding CXX object CMakeFiles/mower_description__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mower_description/srv/detail/cutting_motor_control__type_support.cpp.o[0m
+[4.421s] [ 43%] [32mBuilding CXX object CMakeFiles/mower_description__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mower_description/srv/detail/dds_fastrtps/cutting_motor_control__type_support.cpp.o[0m
+[4.561s] [ 46%] [32mBuilding CXX object CMakeFiles/mower_description__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mower_description/srv/detail/cutting_motor_control__type_support_c.cpp.o[0m
+[4.573s] [ 50%] [32mBuilding CXX object CMakeFiles/mower_description__rosidl_typesupport_c.dir/rosidl_typesupport_c/mower_description/srv/cutting_motor_control__type_support.cpp.o[0m
+[4.590s] [ 53%] [32mBuilding C object CMakeFiles/mower_description__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mower_description/srv/detail/cutting_motor_control__type_support.c.o[0m
+[4.685s] [ 56%] [32m[1mLinking C shared library libmower_description__rosidl_typesupport_introspection_c.so[0m
+[4.707s] [ 59%] [32m[1mLinking CXX shared library libmower_description__rosidl_typesupport_cpp.so[0m
+[4.718s] [ 62%] [32m[1mLinking CXX shared library libmower_description__rosidl_typesupport_c.so[0m
+[4.723s] [ 62%] Built target mower_description__rosidl_typesupport_introspection_c
+[4.757s] [ 62%] Built target mower_description__rosidl_typesupport_cpp
+[4.770s] [ 62%] Built target mower_description__rosidl_typesupport_c
+[4.796s] [ 65%] [32m[1mLinking CXX shared library libmower_description__rosidl_typesupport_introspection_cpp.so[0m
+[4.836s] [ 68%] [32m[1mLinking CXX shared library libmower_description__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.861s] [ 68%] Built target mower_description__rosidl_typesupport_introspection_cpp
+[4.906s] [ 68%] Built target mower_description__rosidl_typesupport_fastrtps_cpp
+[4.930s] [ 71%] [32m[1mLinking CXX shared library libmower_description__rosidl_typesupport_fastrtps_c.so[0m
+[4.993s] [ 71%] Built target mower_description__rosidl_typesupport_fastrtps_c
+[5.018s] [ 71%] Built target mower_description
+[5.042s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.331s] [ 75%] Built target mower_description__py
+[5.356s] [ 78%] [32mBuilding C object CMakeFiles/mower_description__rosidl_generator_py.dir/rosidl_generator_py/mower_description/srv/_cutting_motor_control_s.c.o[0m
+[5.497s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/mower_description/libmower_description__rosidl_generator_py.so[0m
+[5.557s] [ 81%] Built target mower_description__rosidl_generator_py
+[5.585s] [ 84%] [32mBuilding C object CMakeFiles/mower_description__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mower_description/_mower_description_s.ep.rosidl_typesupport_c.c.o[0m
+[5.585s] [ 87%] [32mBuilding C object CMakeFiles/mower_description__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mower_description/_mower_description_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.585s] [ 90%] [32mBuilding C object CMakeFiles/mower_description__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mower_description/_mower_description_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.767s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/mower_description/mower_description_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.772s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/mower_description/mower_description_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.773s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mower_description/mower_description_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.811s] [100%] Built target mower_description__rosidl_typesupport_c__pyext
+[5.814s] [100%] Built target mower_description__rosidl_typesupport_introspection_c__pyext
+[5.817s] [100%] Built target mower_description__rosidl_typesupport_fastrtps_c__pyext
+[5.829s] Invoked command in '/home/q/Algorithm_research/DWA_ws/build/mower_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/q/Algorithm_research/DWA_ws/build/mower_description -- -j24 -l24
+[5.840s] Invoking command in '/home/q/Algorithm_research/DWA_ws/build/mower_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/q/Algorithm_research/DWA_ws/build/mower_description
+[5.850s] -- Install configuration: ""
+[5.850s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/ament_index/resource_index/rosidl_interfaces/mower_description
+[5.850s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description
+[5.850s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/msg
+[5.850s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/msg/rosidl_generator_c__visibility_control.h
+[5.850s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv
+[5.850s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/cutting_motor_control.h
+[5.851s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail
+[5.851s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/cutting_motor_control__functions.c
+[5.851s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/cutting_motor_control__struct.h
+[5.851s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/cutting_motor_control__type_support.h
+[5.851s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/cutting_motor_control__functions.h
+[5.852s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/environment/library_path.sh
+[5.852s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/environment/library_path.dsv
+[5.852s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_generator_c.so
+[5.853s] -- Set runtime path of "/home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_generator_c.so" to ""
+[5.853s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description
+[5.853s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/msg
+[5.853s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.854s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv
+[5.854s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail
+[5.854s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/cutting_motor_control__rosidl_typesupport_fastrtps_c.h
+[5.854s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_typesupport_fastrtps_c.so
+[5.855s] -- Set runtime path of "/home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_typesupport_fastrtps_c.so" to ""
+[5.855s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description
+[5.855s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/msg
+[5.855s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.856s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv
+[5.856s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail
+[5.856s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/cutting_motor_control__struct.hpp
+[5.856s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/cutting_motor_control__builder.hpp
+[5.856s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/cutting_motor_control__traits.hpp
+[5.856s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/cutting_motor_control__type_support.hpp
+[5.857s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/cutting_motor_control.hpp
+[5.857s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description
+[5.857s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/msg
+[5.857s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.857s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv
+[5.857s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail
+[5.857s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/dds_fastrtps
+[5.857s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/cutting_motor_control__rosidl_typesupport_fastrtps_cpp.hpp
+[5.858s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_typesupport_fastrtps_cpp.so
+[5.859s] -- Set runtime path of "/home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.859s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description
+[5.859s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/msg
+[5.859s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.859s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv
+[5.859s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail
+[5.859s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/cutting_motor_control__type_support.c
+[5.860s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/cutting_motor_control__rosidl_typesupport_introspection_c.h
+[5.860s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_typesupport_introspection_c.so
+[5.861s] -- Set runtime path of "/home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_typesupport_introspection_c.so" to ""
+[5.861s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_typesupport_c.so
+[5.862s] -- Set runtime path of "/home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_typesupport_c.so" to ""
+[5.862s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description
+[5.862s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv
+[5.862s] -- Up-to-date: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail
+[5.862s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/cutting_motor_control__type_support.cpp
+[5.862s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/include/mower_description/mower_description/srv/detail/cutting_motor_control__rosidl_typesupport_introspection_cpp.hpp
+[5.862s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_typesupport_introspection_cpp.so
+[5.863s] -- Set runtime path of "/home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_typesupport_introspection_cpp.so" to ""
+[5.863s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_typesupport_cpp.so
+[5.864s] -- Set runtime path of "/home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_typesupport_cpp.so" to ""
+[5.864s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/environment/pythonpath.sh
+[5.864s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/environment/pythonpath.dsv
+[5.865s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description-0.0.0-py3.10.egg-info
+[5.865s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.865s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.865s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description-0.0.0-py3.10.egg-info/top_level.txt
+[5.866s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description-0.0.0-py3.10.egg-info/PKG-INFO
+[5.866s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description
+[5.866s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/libmower_description__rosidl_generator_py.so
+[5.866s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/mower_description_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.867s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/mower_description_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.867s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/__init__.py
+[5.868s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/mower_description_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.868s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/_mower_description_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.868s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/_mower_description_s.ep.rosidl_typesupport_introspection_c.c
+[5.869s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/srv
+[5.869s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/srv/_cutting_motor_control_s.c
+[5.869s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/srv/__init__.py
+[5.869s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/srv/_cutting_motor_control.py
+[5.870s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/_mower_description_s.ep.rosidl_typesupport_c.c
+[5.913s] Listing '/home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description'...
+[5.913s] Compiling '/home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/__init__.py'...
+[5.913s] Listing '/home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/srv'...
+[5.913s] Compiling '/home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/srv/__init__.py'...
+[5.913s] Compiling '/home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/srv/_cutting_motor_control.py'...
+[5.916s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/mower_description_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.917s] -- Set runtime path of "/home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/mower_description_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.918s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/mower_description_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.919s] -- Set runtime path of "/home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/mower_description_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.919s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/mower_description_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.920s] -- Set runtime path of "/home/q/Algorithm_research/DWA_ws/install/mower_description/local/lib/python3.10/dist-packages/mower_description/mower_description_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.920s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_generator_py.so
+[5.922s] -- Set runtime path of "/home/q/Algorithm_research/DWA_ws/install/mower_description/lib/libmower_description__rosidl_generator_py.so" to ""
+[5.922s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/ament_index/resource_index/rust_packages/mower_description
+[5.922s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/rust
+[5.922s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/rust/Cargo.toml
+[5.923s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/rust/src
+[5.923s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/rust/src/srv.rs
+[5.923s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/rust/src/lib.rs
+[5.923s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/rust/src/srv
+[5.923s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/rust/src/srv/rmw.rs
+[5.924s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/rust/build.rs
+[5.924s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/srv/CuttingMotorControl.idl
+[5.924s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/srv/CuttingMotorControl.srv
+[5.925s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/srv/CuttingMotorControl_Request.msg
+[5.925s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/srv/CuttingMotorControl_Response.msg
+[5.926s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/lib/mower_description/cutting_motor_controller.py
+[5.926s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/lib/mower_description/gear_marker_publisher.py
+[5.926s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/launch
+[5.927s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/launch/mower_gazebo.launch.py
+[5.927s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/urdf
+[5.927s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/urdf/mower.urdf
+[5.927s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/worlds
+[5.927s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/worlds/room_world.world
+[5.928s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/worlds/room_world_open.world
+[5.928s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/worlds/mower_world.world
+[5.928s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/config
+[5.928s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/config/rviz
+[5.928s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/config/rviz/mower_gazebo.rviz
+[5.929s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/ament_index/resource_index/package_run_dependencies/mower_description
+[5.929s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/ament_index/resource_index/parent_prefix_path/mower_description
+[5.930s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/environment/ament_prefix_path.sh
+[5.930s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/environment/ament_prefix_path.dsv
+[5.930s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/environment/path.sh
+[5.930s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/environment/path.dsv
+[5.930s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/local_setup.bash
+[5.931s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/local_setup.sh
+[5.931s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/local_setup.zsh
+[5.931s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/local_setup.dsv
+[5.931s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/package.dsv
+[5.931s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/ament_index/resource_index/packages/mower_description
+[5.932s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/export_mower_description__rosidl_generator_cExport.cmake
+[5.933s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/export_mower_description__rosidl_generator_cExport-noconfig.cmake
+[5.933s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/export_mower_description__rosidl_typesupport_fastrtps_cExport.cmake
+[5.934s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/export_mower_description__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.934s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/export_mower_description__rosidl_generator_cppExport.cmake
+[5.935s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/export_mower_description__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.936s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/export_mower_description__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.936s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/mower_description__rosidl_typesupport_introspection_cExport.cmake
+[5.937s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/mower_description__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.937s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/mower_description__rosidl_typesupport_cExport.cmake
+[5.938s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/mower_description__rosidl_typesupport_cExport-noconfig.cmake
+[5.938s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/mower_description__rosidl_typesupport_introspection_cppExport.cmake
+[5.939s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/mower_description__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.941s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/mower_description__rosidl_typesupport_cppExport.cmake
+[5.942s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/mower_description__rosidl_typesupport_cppExport-noconfig.cmake
+[5.943s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/export_mower_description__rosidl_generator_pyExport.cmake
+[5.944s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/export_mower_description__rosidl_generator_pyExport-noconfig.cmake
+[5.945s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/rosidl_cmake-extras.cmake
+[5.946s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.947s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.948s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/ament_cmake_export_libraries-extras.cmake
+[5.949s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/ament_cmake_export_targets-extras.cmake
+[5.949s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.950s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.951s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/mower_descriptionConfig.cmake
+[5.952s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/cmake/mower_descriptionConfig-version.cmake
+[5.952s] -- Installing: /home/q/Algorithm_research/DWA_ws/install/mower_description/share/mower_description/package.xml
+[5.958s] Invoked command in '/home/q/Algorithm_research/DWA_ws/build/mower_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/q/Algorithm_research/DWA_ws/build/mower_description

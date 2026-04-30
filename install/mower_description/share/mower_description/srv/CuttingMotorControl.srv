@@ -1,1 +1,5 @@
-/home/q/Algorithm_research/DWA_ws/src/mower_description/srv/CuttingMotorControl.srv
+int32 speed_level  # 0=关闭, 1=一档, 2=二档, 3=三档
+---
+bool success        # 操作是否成功
+string message      # 操作结果消息
+float64 actual_speed  # 实际设置的速度 (rad/s)

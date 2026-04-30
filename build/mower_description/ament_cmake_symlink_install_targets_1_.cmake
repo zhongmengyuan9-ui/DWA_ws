@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/q/Algorithm_research/DWA_ws/build/mower_description/rosidl_generator_py/mower_description/mower_description_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "mower_description__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/mower_description")

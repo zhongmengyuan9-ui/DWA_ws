@@ -14,14 +14,14 @@ class GearMarkerPublisher(Node):
 
         self.subscription = self.create_subscription(
             String,
-            '/mower/cutting_motor/status',
+            '/gmower/cutting_motor/status',
             self.status_callback,
             10
         )
 
         self.marker_publisher = self.create_publisher(
             Marker,
-            '/mower/gear_marker',
+            '/gmower/gear_marker',
             10
         )
 

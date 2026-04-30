@@ -48,7 +48,7 @@ def generate_launch_description():
     spawn_entity = Node(
         package='gazebo_ros',
         executable='spawn_entity.py',
-        arguments=['-entity', 'mower', '-topic', 'robot_description', '-x', '0', '-y', '0', '-z', '0.1', '-b'],
+        arguments=['-entity', 'gmower', '-topic', 'robot_description', '-x', '0', '-y', '0', '-z', '0.1', '-b'],
         output='screen'
     )
 
@@ -57,7 +57,7 @@ def generate_launch_description():
             'ros2', 'service', 'call',
             '/delete_entity',
             'gazebo_msgs/srv/DeleteEntity',
-            '{name: mower}'
+            '{name: gmower}'
         ],
         output='screen'
     )

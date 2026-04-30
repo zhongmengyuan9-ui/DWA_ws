@@ -1,1 +1,0 @@
-/home/q/Algorithm_research/DWA_ws/build/mower_description/rosidl_generator_py/mower_description/__init__.py

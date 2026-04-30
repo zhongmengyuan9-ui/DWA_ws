@@ -26,21 +26,21 @@ class CuttingMotorController(Node):
         # 创建状态发布者
         self.status_publisher = self.create_publisher(
             String, 
-            '/mower/cutting_motor/status', 
+            '/gmower/cutting_motor/status', 
             10
         )
 
         # 使用 joint pose trajectory 插件的命令 topic
         self.traj_publisher = self.create_publisher(
             JointTrajectory,
-            '/mower/blade/set_joint_trajectory',
+            '/gmower/blade/set_joint_trajectory',
             10
         )
         
         # 创建服务
         self.service = self.create_service(
             CuttingMotorControl, 
-            '/mower/cutting_motor/control', 
+            '/gmower/cutting_motor/control', 
             self.control_callback
         )
 
